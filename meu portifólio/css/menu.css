@@ -1,0 +1,70 @@
+  nav { 
+    padding: 10px 0;
+    background-color: #0f0f0f;
+  }
+  #container 
+  {
+    width: 80%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+  .logo 
+  {
+    margin-left: 15%;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  .menu 
+  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu li 
+  {
+    display: inline;
+    margin-right: 20px;
+  }
+  .menu li a 
+  {
+    color: #fff;  
+    text-decoration: none; 
+    font-size: 25px; 
+    text-shadow: 2px 2px 4px  red;
+  }
+
+  #container .menu li a:hover
+  {
+    border-bottom: 2px solid rgb(255, 73, 73);
+  }
+
+  #container .menu li a:hover, #container2 .menu li a:hover
+  {
+    color: rgb(255, 73, 73); 
+    padding-bottom: 15px;
+  }
+
+  #icons1
+  {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #icons1 li
+  {
+    display: inline-block; 
+    margin-right: 20px;
+  }
+
+  #icons1 a{
+    color: white;
+    font-size: 30px;
+  }
+
+  #icons1 a:hover
+  {
+    color: rgb(255, 73, 73);
+  }

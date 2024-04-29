@@ -1,0 +1,30 @@
+footer
+{
+	margin-top: 100px;
+	background-color: #0f0f0f;
+	padding: 10px;
+}
+
+#container2
+{
+	margin-top: ;
+	width: 50%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: auto;
+}
+
+#container2 ul li
+{
+	text-align: center;
+	display: block;
+	line-height: 40px;
+}
+
+#copy
+{
+	text-align: center;
+	color: #A9A9A9;
+	font-size: 15px;
+}

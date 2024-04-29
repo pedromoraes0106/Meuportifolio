@@ -1,0 +1,179 @@
+#topo_main
+{
+    background-image: url("../img/fundo.jpg");
+    width: 100%;
+    height: 740px;
+    color: white;
+}
+
+
+#sob_fundo
+{
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 100%;
+    height: 740px;
+}
+
+#sob_fundo img
+{
+    width: 300px;
+}
+
+#sob_fundo img:hover
+{
+    opacity: 0.9;
+    translate: 1px 1px;
+}
+
+#sob_fundo h3
+{
+    text-shadow: 2px 2px 15px  red;
+    color: white;
+    font-size: 35px;
+}
+
+#sub_textos 
+{
+    margin: auto;
+    width: 90%;
+    display: flex; 
+}
+
+#sub_textos p
+{
+    padding: 20px;
+    text-align: justify;
+    width: 500px;
+    font-size: 20px;
+}
+
+button
+{
+    border: 0;
+    margin: 0;  
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    font-size: 25px;
+    text-align: center;
+}
+
+button:hover
+{
+    transform: scale(1.1);
+    background-color: rgb(255, 73, 73);
+    cursor: pointer;
+}
+
+#secao2
+{
+    margin-top: 100px;
+}
+
+#secao2 h2
+{
+    text-shadow: 2px 2px 15px  red;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+#geral_icones
+{
+    padding-top: 20px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons
+{
+    margin: 10px;
+}
+
+
+.icons img
+{
+    margin: 5px;
+    width: 70px;
+}
+
+.icons img:hover
+{
+    transform: scale(1.1);
+}
+
+#secao3 h2
+{
+    text-shadow: 2px 2px 15px  red;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+  #contato
+  {
+    padding-top: 20px;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+  }
+
+  #contato img
+  {
+    width: 400px;
+    border-radius: 30px;
+  }
+
+#icons2
+  {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 30px;
+  }
+
+  #icons2 li
+  {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  #icons2 a{
+    color: white;
+    font-size: 33px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+  #icons2 a:hover
+  {
+    color: rgb(255, 73, 73);
+  }
+
+  #icons2 a i 
+  {
+    margin-right: 10px;
+  }
+
+  .icons2_descricao
+  {
+    color: white;
+    font-size: 25px;
+  }
+
+  .icons2_descricao:hover
+  {
+    color: rgb(255, 73, 73);
+  }
